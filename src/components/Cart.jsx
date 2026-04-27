@@ -14,7 +14,7 @@ export default function Cart({ isClose }) {
 
       <div className='flex flex-col gap-2 overflow-y-auto h-auto '>
         {cartItems.map((item) => (
-          <div className='bg-olive-100/89 min-h-15 flex items-center justify-between px-3'>
+          <div key={item.id} className='bg-olive-100/89 min-h-15 flex items-center justify-between px-3'>
 
             <img src={item.image} className='w-12 h-12 rounded-full' />
             <h3 className='text-sm truncate w-25'>{item.title}</h3>

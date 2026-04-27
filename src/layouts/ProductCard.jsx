@@ -10,6 +10,7 @@ const ProductCard = ({ image, title, price, oldPrice, discount, status, id }) =>
   const dispatch = useDispatch()
 
 
+
   return (
     <div className="bg-white m-2 p-4 rounded-lg shadow hover:shadow-lg transition relative overflow-hidden w-full">
       {/* Discount badge */}

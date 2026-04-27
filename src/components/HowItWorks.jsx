@@ -1,5 +1,5 @@
 import React from "react";
-import img from "/public/images/process.jpg";
+import img from "../images/process.jpg";
 
 const steps = [
   {
